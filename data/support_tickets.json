@@ -1,0 +1,482 @@
+[
+  {
+    "record_id": "TKT-0001",
+    "category": "Product Defect",
+    "status": "In Progress",
+    "resolution_time_hours": 12,
+    "days_since_created": 1,
+    "escalated": false
+  },
+  {
+    "record_id": "TKT-0002",
+    "category": "Technical Issue",
+    "status": "Open",
+    "resolution_time_hours": 24,
+    "days_since_created": 7,
+    "escalated": false
+  },
+  {
+    "record_id": "TKT-0003",
+    "category": "General Inquiry",
+    "status": "Open",
+    "resolution_time_hours": 11,
+    "days_since_created": 17,
+    "escalated": false
+  },
+  {
+    "record_id": "TKT-0004",
+    "category": "Account Access",
+    "status": "Resolved",
+    "resolution_time_hours": 70,
+    "days_since_created": 20,
+    "escalated": false
+  },
+  {
+    "record_id": "TKT-0005",
+    "category": "Account Access",
+    "status": "Escalated",
+    "resolution_time_hours": 2,
+    "days_since_created": 12,
+    "escalated": true
+  },
+  {
+    "record_id": "TKT-0006",
+    "category": "Product Defect",
+    "status": "In Progress",
+    "resolution_time_hours": 8,
+    "days_since_created": 19,
+    "escalated": false
+  },
+  {
+    "record_id": "TKT-0007",
+    "category": "Product Defect",
+    "status": "In Progress",
+    "resolution_time_hours": 26,
+    "days_since_created": 14,
+    "escalated": false
+  },
+  {
+    "record_id": "TKT-0008",
+    "category": "General Inquiry",
+    "status": "Resolved",
+    "resolution_time_hours": 22,
+    "days_since_created": 7,
+    "escalated": false
+  },
+  {
+    "record_id": "TKT-0009",
+    "category": "Account Access",
+    "status": "Open",
+    "resolution_time_hours": 4,
+    "days_since_created": 11,
+    "escalated": false
+  },
+  {
+    "record_id": "TKT-0010",
+    "category": "Account Access",
+    "status": "Open",
+    "resolution_time_hours": 12,
+    "days_since_created": 1,
+    "escalated": false
+  },
+  {
+    "record_id": "TKT-0011",
+    "category": "General Inquiry",
+    "status": "In Progress",
+    "resolution_time_hours": 28,
+    "days_since_created": 11,
+    "escalated": false
+  },
+  {
+    "record_id": "TKT-0012",
+    "category": "Technical Issue",
+    "status": "Resolved",
+    "resolution_time_hours": 51,
+    "days_since_created": 7,
+    "escalated": false
+  },
+  {
+    "record_id": "TKT-0013",
+    "category": "Product Defect",
+    "status": "Closed",
+    "resolution_time_hours": 26,
+    "days_since_created": 22,
+    "escalated": false
+  },
+  {
+    "record_id": "TKT-0014",
+    "category": "Billing",
+    "status": "Open",
+    "resolution_time_hours": 13,
+    "days_since_created": 19,
+    "escalated": false
+  },
+  {
+    "record_id": "TKT-0015",
+    "category": "Technical Issue",
+    "status": "Closed",
+    "resolution_time_hours": 61,
+    "days_since_created": 17,
+    "escalated": true
+  },
+  {
+    "record_id": "TKT-0016",
+    "category": "Product Defect",
+    "status": "Open",
+    "resolution_time_hours": 20,
+    "days_since_created": 19,
+    "escalated": false
+  },
+  {
+    "record_id": "TKT-0017",
+    "category": "Billing",
+    "status": "Closed",
+    "resolution_time_hours": 32,
+    "days_since_created": 13,
+    "escalated": false
+  },
+  {
+    "record_id": "TKT-0018",
+    "category": "Account Access",
+    "status": "Resolved",
+    "resolution_time_hours": 25,
+    "days_since_created": 6,
+    "escalated": false
+  },
+  {
+    "record_id": "TKT-0019",
+    "category": "Billing",
+    "status": "Open",
+    "resolution_time_hours": 49,
+    "days_since_created": 13,
+    "escalated": false
+  },
+  {
+    "record_id": "TKT-0020",
+    "category": "Account Access",
+    "status": "Open",
+    "resolution_time_hours": 19,
+    "days_since_created": 6,
+    "escalated": false
+  },
+  {
+    "record_id": "TKT-0021",
+    "category": "General Inquiry",
+    "status": "Closed",
+    "resolution_time_hours": 3,
+    "days_since_created": 4,
+    "escalated": false
+  },
+  {
+    "record_id": "TKT-0022",
+    "category": "Product Defect",
+    "status": "Resolved",
+    "resolution_time_hours": 29,
+    "days_since_created": 29,
+    "escalated": false
+  },
+  {
+    "record_id": "TKT-0023",
+    "category": "Billing",
+    "status": "In Progress",
+    "resolution_time_hours": 3,
+    "days_since_created": 4,
+    "escalated": false
+  },
+  {
+    "record_id": "TKT-0024",
+    "category": "Billing",
+    "status": "Open",
+    "resolution_time_hours": 30,
+    "days_since_created": 18,
+    "escalated": false
+  },
+  {
+    "record_id": "TKT-0025",
+    "category": "Technical Issue",
+    "status": "Escalated",
+    "resolution_time_hours": 6,
+    "days_since_created": 1,
+    "escalated": true
+  },
+  {
+    "record_id": "TKT-0026",
+    "category": "Billing",
+    "status": "Resolved",
+    "resolution_time_hours": 18,
+    "days_since_created": 21,
+    "escalated": false
+  },
+  {
+    "record_id": "TKT-0027",
+    "category": "Technical Issue",
+    "status": "In Progress",
+    "resolution_time_hours": 64,
+    "days_since_created": 19,
+    "escalated": false
+  },
+  {
+    "record_id": "TKT-0028",
+    "category": "Billing",
+    "status": "Resolved",
+    "resolution_time_hours": 12,
+    "days_since_created": 18,
+    "escalated": false
+  },
+  {
+    "record_id": "TKT-0029",
+    "category": "Product Defect",
+    "status": "In Progress",
+    "resolution_time_hours": 66,
+    "days_since_created": 30,
+    "escalated": false
+  },
+  {
+    "record_id": "TKT-0030",
+    "category": "Account Access",
+    "status": "Open",
+    "resolution_time_hours": 53,
+    "days_since_created": 28,
+    "escalated": true
+  },
+  {
+    "record_id": "TKT-0031",
+    "category": "General Inquiry",
+    "status": "Open",
+    "resolution_time_hours": 14,
+    "days_since_created": 28,
+    "escalated": false
+  },
+  {
+    "record_id": "TKT-0032",
+    "category": "Billing",
+    "status": "In Progress",
+    "resolution_time_hours": 24,
+    "days_since_created": 19,
+    "escalated": false
+  },
+  {
+    "record_id": "TKT-0033",
+    "category": "Billing",
+    "status": "Open",
+    "resolution_time_hours": 19,
+    "days_since_created": 29,
+    "escalated": false
+  },
+  {
+    "record_id": "TKT-0034",
+    "category": "General Inquiry",
+    "status": "Resolved",
+    "resolution_time_hours": 63,
+    "days_since_created": 26,
+    "escalated": false
+  },
+  {
+    "record_id": "TKT-0035",
+    "category": "Technical Issue",
+    "status": "Resolved",
+    "resolution_time_hours": 19,
+    "days_since_created": 13,
+    "escalated": false
+  },
+  {
+    "record_id": "TKT-0036",
+    "category": "General Inquiry",
+    "status": "Resolved",
+    "resolution_time_hours": 15,
+    "days_since_created": 25,
+    "escalated": false
+  },
+  {
+    "record_id": "TKT-0037",
+    "category": "Billing",
+    "status": "Closed",
+    "resolution_time_hours": 51,
+    "days_since_created": 23,
+    "escalated": false
+  },
+  {
+    "record_id": "TKT-0038",
+    "category": "Product Defect",
+    "status": "In Progress",
+    "resolution_time_hours": 16,
+    "days_since_created": 19,
+    "escalated": false
+  },
+  {
+    "record_id": "TKT-0039",
+    "category": "Product Defect",
+    "status": "In Progress",
+    "resolution_time_hours": 26,
+    "days_since_created": 3,
+    "escalated": false
+  },
+  {
+    "record_id": "TKT-0040",
+    "category": "Account Access",
+    "status": "Resolved",
+    "resolution_time_hours": 7,
+    "days_since_created": 20,
+    "escalated": false
+  },
+  {
+    "record_id": "TKT-0041",
+    "category": "General Inquiry",
+    "status": "Closed",
+    "resolution_time_hours": 61,
+    "days_since_created": 10,
+    "escalated": false
+  },
+  {
+    "record_id": "TKT-0042",
+    "category": "General Inquiry",
+    "status": "In Progress",
+    "resolution_time_hours": 38,
+    "days_since_created": 29,
+    "escalated": false
+  },
+  {
+    "record_id": "TKT-0043",
+    "category": "Billing",
+    "status": "Open",
+    "resolution_time_hours": 42,
+    "days_since_created": 14,
+    "escalated": false
+  },
+  {
+    "record_id": "TKT-0044",
+    "category": "General Inquiry",
+    "status": "Resolved",
+    "resolution_time_hours": 49,
+    "days_since_created": 21,
+    "escalated": false
+  },
+  {
+    "record_id": "TKT-0045",
+    "category": "Product Defect",
+    "status": "Closed",
+    "resolution_time_hours": 70,
+    "days_since_created": 4,
+    "escalated": true
+  },
+  {
+    "record_id": "TKT-0046",
+    "category": "Product Defect",
+    "status": "In Progress",
+    "resolution_time_hours": 6,
+    "days_since_created": 9,
+    "escalated": false
+  },
+  {
+    "record_id": "TKT-0047",
+    "category": "Technical Issue",
+    "status": "Escalated",
+    "resolution_time_hours": 33,
+    "days_since_created": 3,
+    "escalated": true
+  },
+  {
+    "record_id": "TKT-0048",
+    "category": "General Inquiry",
+    "status": "Resolved",
+    "resolution_time_hours": 53,
+    "days_since_created": 24,
+    "escalated": false
+  },
+  {
+    "record_id": "TKT-0049",
+    "category": "Product Defect",
+    "status": "Resolved",
+    "resolution_time_hours": 38,
+    "days_since_created": 22,
+    "escalated": false
+  },
+  {
+    "record_id": "TKT-0050",
+    "category": "Account Access",
+    "status": "In Progress",
+    "resolution_time_hours": 64,
+    "days_since_created": 1,
+    "escalated": false
+  },
+  {
+    "record_id": "TKT-0051",
+    "category": "Billing",
+    "status": "In Progress",
+    "resolution_time_hours": 50,
+    "days_since_created": 4,
+    "escalated": false
+  },
+  {
+    "record_id": "TKT-0052",
+    "category": "Technical Issue",
+    "status": "In Progress",
+    "resolution_time_hours": 43,
+    "days_since_created": 14,
+    "escalated": false
+  },
+  {
+    "record_id": "TKT-0053",
+    "category": "Product Defect",
+    "status": "Escalated",
+    "resolution_time_hours": 12,
+    "days_since_created": 27,
+    "escalated": true
+  },
+  {
+    "record_id": "TKT-0054",
+    "category": "Technical Issue",
+    "status": "Open",
+    "resolution_time_hours": 34,
+    "days_since_created": 9,
+    "escalated": false
+  },
+  {
+    "record_id": "TKT-0055",
+    "category": "General Inquiry",
+    "status": "In Progress",
+    "resolution_time_hours": 25,
+    "days_since_created": 1,
+    "escalated": false
+  },
+  {
+    "record_id": "TKT-0056",
+    "category": "Billing",
+    "status": "Closed",
+    "resolution_time_hours": 15,
+    "days_since_created": 13,
+    "escalated": false
+  },
+  {
+    "record_id": "TKT-0057",
+    "category": "General Inquiry",
+    "status": "Resolved",
+    "resolution_time_hours": 38,
+    "days_since_created": 21,
+    "escalated": false
+  },
+  {
+    "record_id": "TKT-0058",
+    "category": "Billing",
+    "status": "Open",
+    "resolution_time_hours": 52,
+    "days_since_created": 21,
+    "escalated": false
+  },
+  {
+    "record_id": "TKT-0059",
+    "category": "General Inquiry",
+    "status": "In Progress",
+    "resolution_time_hours": 29,
+    "days_since_created": 21,
+    "escalated": false
+  },
+  {
+    "record_id": "TKT-0060",
+    "category": "Technical Issue",
+    "status": "Open",
+    "resolution_time_hours": 66,
+    "days_since_created": 2,
+    "escalated": true
+  }
+]

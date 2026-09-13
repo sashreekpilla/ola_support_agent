@@ -1,0 +1,118 @@
+[
+  {
+    "id": "Q01",
+    "query": "What are the ticket priority rules?",
+    "expected_topics": [
+      "ticket_priority_classification"
+    ],
+    "out_of_scope": false
+  },
+  {
+    "id": "Q02",
+    "query": "What is the SLA for Sev-1 tickets?",
+    "expected_topics": [
+      "sla_by_severity"
+    ],
+    "out_of_scope": false
+  },
+  {
+    "id": "Q03",
+    "query": "When should a ticket be escalated?",
+    "expected_topics": [
+      "escalation_matrix"
+    ],
+    "out_of_scope": false
+  },
+  {
+    "id": "Q04",
+    "query": "What is the refund and compensation policy?",
+    "expected_topics": [
+      "refund_and_compensation"
+    ],
+    "out_of_scope": false
+  },
+  {
+    "id": "Q05",
+    "query": "Which customer communication channels are approved?",
+    "expected_topics": [
+      "customer_communication_channels"
+    ],
+    "out_of_scope": false
+  },
+  {
+    "id": "Q06",
+    "query": "What are the support hours and holiday rules?",
+    "expected_topics": [
+      "business_hours_and_holidays"
+    ],
+    "out_of_scope": false
+  },
+  {
+    "id": "Q07",
+    "query": "How are repeat complaints handled?",
+    "expected_topics": [
+      "repeat_complaint_handling"
+    ],
+    "out_of_scope": false
+  },
+  {
+    "id": "Q08",
+    "query": "How does service credit work?",
+    "expected_topics": [
+      "service_credit"
+    ],
+    "out_of_scope": false
+  },
+  {
+    "id": "Q09",
+    "query": "How is customer feedback collected?",
+    "expected_topics": [
+      "feedback_collection"
+    ],
+    "out_of_scope": false
+  },
+  {
+    "id": "Q10",
+    "query": "How are VIP customers handled?",
+    "expected_topics": [
+      "vip_customer_handling"
+    ],
+    "out_of_scope": false
+  },
+  {
+    "id": "Q11",
+    "query": "How should an outage be communicated?",
+    "expected_topics": [
+      "outage_communication"
+    ],
+    "out_of_scope": false
+  },
+  {
+    "id": "Q12",
+    "query": "How long are support tickets retained?",
+    "expected_topics": [
+      "ticket_data_retention"
+    ],
+    "out_of_scope": false
+  },
+  {
+    "id": "Q13",
+    "query": "What is the status of TKT-0001?",
+    "expected_topics": [
+      "ticket"
+    ],
+    "out_of_scope": false
+  },
+  {
+    "id": "Q14",
+    "query": "What is the recipe for biryani?",
+    "expected_topics": [],
+    "out_of_scope": true
+  },
+  {
+    "id": "Q15",
+    "query": "Can you tell me tomorrow's weather?",
+    "expected_topics": [],
+    "out_of_scope": true
+  }
+]

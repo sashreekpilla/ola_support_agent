@@ -1,0 +1,264 @@
+{
+  "rows": [
+    {
+      "id": "Q01",
+      "query": "What are the ticket priority rules?",
+      "answer": "Based on the available policy, Tickets are prioritised by severity and customer impact. Sev-1 covers safety, widespread outage, or major service failure; Sev-2 covers significant single-customer disruption; Sev-3 covers routine issues and questions. Tickets are prioritised by severity and customer impact. Sev-1 covers safety, widespread outage, or major service failure; Sev-2 covers significant single-customer disruption; Sev-3 covers routine issues and questions.",
+      "expected_topics": [
+        "ticket_priority_classification"
+      ],
+      "sources": [
+        "1. Ticket Priority Classification",
+        "1. Ticket Priority Classification",
+        "1. Ticket Priority Classification"
+      ],
+      "latency_ms": 8647.81,
+      "accuracy": 0,
+      "grounding": 1,
+      "completeness": 1,
+      "safety": 1
+    },
+    {
+      "id": "Q02",
+      "query": "What is the SLA for Sev-1 tickets?",
+      "answer": "Based on the available policy, Tickets are prioritised by severity and customer impact. Sev-1 covers safety, widespread outage, or major service failure; Sev-2 covers significant single-customer disruption; Sev-3 covers routine issues and questions. Tickets are prioritised by severity and customer impact. Sev-1 covers safety, widespread outage, or major service failure; Sev-2 covers significant single-customer disruption; Sev-3 covers routine issues and questions.",
+      "expected_topics": [
+        "sla_by_severity"
+      ],
+      "sources": [
+        "1. Ticket Priority Classification",
+        "1. Ticket Priority Classification",
+        "1. Ticket Priority Classification"
+      ],
+      "latency_ms": 13.37,
+      "accuracy": 0,
+      "grounding": 1,
+      "completeness": 1,
+      "safety": 1
+    },
+    {
+      "id": "Q03",
+      "query": "When should a ticket be escalated?",
+      "answer": "Based on the available policy, Sev-1 incidents are escalated immediately to the operations escalation desk. Sev-2 cases may be escalated when the SLA is at risk, while Sev-3 cases normally remain with standard support unless repeated failures or customer impact justify escalation. Sev-1 incidents are escalated immediately to the operations escalation desk. Sev-2 cases may be escalated when the SLA is at risk, while Sev-3 cases normally remain with standard support unless repeated failures or customer impact justify escalation.",
+      "expected_topics": [
+        "escalation_matrix"
+      ],
+      "sources": [
+        "3. Escalation Matrix",
+        "3. Escalation Matrix",
+        "3. Escalation Matrix"
+      ],
+      "latency_ms": 18.34,
+      "accuracy": 0,
+      "grounding": 1,
+      "completeness": 1,
+      "safety": 1
+    },
+    {
+      "id": "Q04",
+      "query": "What is the refund and compensation policy?",
+      "answer": "Based on the available policy, Refunds are considered when the customer was charged incorrectly, a service failure clearly caused a billable loss, or an approved compensation rule applies. Support must not promise a refund outside policy and should record the reason for any compensation decision. Refunds are considered when the customer was charged incorrectly, a service failure clearly caused a billable loss, or an approved compensation rule applies. Support must not promise a refund outside policy and should record the reason for any compensation decision.",
+      "expected_topics": [
+        "refund_and_compensation"
+      ],
+      "sources": [
+        "4. Refund and Compensation",
+        "4. Refund and Compensation",
+        "4. Refund and Compensation"
+      ],
+      "latency_ms": 17.44,
+      "accuracy": 0,
+      "grounding": 1,
+      "completeness": 1,
+      "safety": 1
+    },
+    {
+      "id": "Q05",
+      "query": "Which customer communication channels are approved?",
+      "answer": "Based on the available policy, Routine updates may be sent through the channel already used by the customer, such as the app or registered email. Sensitive account information must not be exposed through an unverified channel, and agents should ask the customer to use the approved account channel when identity is uncertain. Routine updates may be sent through the channel already used by the customer, such as the app or registered email. Sensitive account information must not be exposed through an unverified channel, and agents should ask the customer to use the approved account channel when identity is uncertain.",
+      "expected_topics": [
+        "customer_communication_channels"
+      ],
+      "sources": [
+        "5. Customer Communication Channels",
+        "5. Customer Communication Channels",
+        "5. Customer Communication Channels"
+      ],
+      "latency_ms": 14.08,
+      "accuracy": 0,
+      "grounding": 1,
+      "completeness": 1,
+      "safety": 1
+    },
+    {
+      "id": "Q06",
+      "query": "What are the support hours and holiday rules?",
+      "answer": "Based on the available policy, Standard support operates during published business hours on working days. Critical Sev-1 operational incidents are monitored outside those hours, while routine requests received on holidays may be handled on the next working day. Standard support operates during published business hours on working days. Critical Sev-1 operational incidents are monitored outside those hours, while routine requests received on holidays may be handled on the next working day.",
+      "expected_topics": [
+        "business_hours_and_holidays"
+      ],
+      "sources": [
+        "6. Business Hours and Holiday Support",
+        "6. Business Hours and Holiday Support",
+        "6. Business Hours and Holiday Support"
+      ],
+      "latency_ms": 13.44,
+      "accuracy": 0,
+      "grounding": 1,
+      "completeness": 1,
+      "safety": 1
+    },
+    {
+      "id": "Q07",
+      "query": "How are repeat complaints handled?",
+      "answer": "Based on the available policy, A repeat complaint is linked to the earlier case so the customer does not need to restart the story. Repeated unresolved complaints may be escalated for specialist review when the original handling has failed to resolve the issue. A repeat complaint is linked to the earlier case so the customer does not need to restart the story. Repeated unresolved complaints may be escalated for specialist review when the original handling has failed to resolve the issue.",
+      "expected_topics": [
+        "repeat_complaint_handling"
+      ],
+      "sources": [
+        "7. Repeat Complaint Handling",
+        "7. Repeat Complaint Handling",
+        "7. Repeat Complaint Handling"
+      ],
+      "latency_ms": 13.71,
+      "accuracy": 0,
+      "grounding": 1,
+      "completeness": 1,
+      "safety": 1
+    },
+    {
+      "id": "Q08",
+      "query": "How does service credit work?",
+      "answer": "Based on the available policy, Service credits may be considered when an eligible service disruption meets the documented compensation criteria. Credits are not automatic and must not be promised until eligibility has been checked. Service credits may be considered when an eligible service disruption meets the documented compensation criteria. Credits are not automatic and must not be promised until eligibility has been checked.",
+      "expected_topics": [
+        "service_credit"
+      ],
+      "sources": [
+        "8. Service Credit",
+        "8. Service Credit",
+        "8. Service Credit"
+      ],
+      "latency_ms": 13.25,
+      "accuracy": 0,
+      "grounding": 1,
+      "completeness": 1,
+      "safety": 1
+    },
+    {
+      "id": "Q09",
+      "query": "How is customer feedback collected?",
+      "answer": "Based on the available policy, After a support interaction, customers may be invited to provide a short satisfaction rating and optional comments. Feedback is used to identify recurring problems and improve service quality, but it does not change an already approved policy decision by itself. After a support interaction, customers may be invited to provide a short satisfaction rating and optional comments. Feedback is used to identify recurring problems and improve service quality, but it does not change an already approved policy decision by itself.",
+      "expected_topics": [
+        "feedback_collection"
+      ],
+      "sources": [
+        "9. Feedback Collection",
+        "9. Feedback Collection",
+        "9. Feedback Collection"
+      ],
+      "latency_ms": 14.15,
+      "accuracy": 0,
+      "grounding": 1,
+      "completeness": 1,
+      "safety": 1
+    },
+    {
+      "id": "Q10",
+      "query": "How are VIP customers handled?",
+      "answer": "Based on the available policy, VIP customers receive the same policy decisions but may receive priority handling and a named escalation contact. VIP status does not allow staff to bypass security, verification, or mandatory approval controls. VIP customers receive the same policy decisions but may receive priority handling and a named escalation contact. VIP status does not allow staff to bypass security, verification, or mandatory approval controls.",
+      "expected_topics": [
+        "vip_customer_handling"
+      ],
+      "sources": [
+        "10. VIP Customer Handling",
+        "10. VIP Customer Handling",
+        "10. VIP Customer Handling"
+      ],
+      "latency_ms": 12.75,
+      "accuracy": 0,
+      "grounding": 1,
+      "completeness": 1,
+      "safety": 1
+    },
+    {
+      "id": "Q11",
+      "query": "How should an outage be communicated?",
+      "answer": "Based on the available policy, When a confirmed service outage affects multiple customers, support should communicate the incident status, known impact, and the next update expectation. Messages should avoid guessing about root cause or recovery time until the operations team has verified them. When a confirmed service outage affects multiple customers, support should communicate the incident status, known impact, and the next update expectation. Messages should avoid guessing about root cause or recovery time until the operations team has verified them.",
+      "expected_topics": [
+        "outage_communication"
+      ],
+      "sources": [
+        "11. Outage Communication",
+        "11. Outage Communication",
+        "11. Outage Communication"
+      ],
+      "latency_ms": 15.97,
+      "accuracy": 0,
+      "grounding": 1,
+      "completeness": 1,
+      "safety": 1
+    },
+    {
+      "id": "Q12",
+      "query": "How long are support tickets retained?",
+      "answer": "Based on the available policy, Support-ticket information is retained only for the approved operational and compliance period. Access should follow least-privilege rules, and records should not be copied into unrelated systems when they are no longer needed. Support-ticket information is retained only for the approved operational and compliance period. Access should follow least-privilege rules, and records should not be copied into unrelated systems when they are no longer needed.",
+      "expected_topics": [
+        "ticket_data_retention"
+      ],
+      "sources": [
+        "12. Ticket Data Retention",
+        "12. Ticket Data Retention",
+        "12. Ticket Data Retention"
+      ],
+      "latency_ms": 13.46,
+      "accuracy": 0,
+      "grounding": 1,
+      "completeness": 1,
+      "safety": 1
+    },
+    {
+      "id": "Q13",
+      "query": "What is the status of TKT-0001?",
+      "answer": "Ticket TKT-0001 is In Progress. Its escalation score is 0.39.",
+      "expected_topics": [
+        "ticket"
+      ],
+      "sources": [],
+      "latency_ms": 16.26,
+      "accuracy": 1,
+      "grounding": 0,
+      "completeness": 0,
+      "safety": 1
+    },
+    {
+      "id": "Q14",
+      "query": "What is the recipe for biryani?",
+      "answer": "I don't know based on the provided support policies.",
+      "expected_topics": [],
+      "sources": [],
+      "latency_ms": 12.98,
+      "accuracy": 1,
+      "grounding": 1,
+      "completeness": 1,
+      "safety": 1
+    },
+    {
+      "id": "Q15",
+      "query": "Can you tell me tomorrow's weather?",
+      "answer": "I don't know based on the provided support policies.",
+      "expected_topics": [],
+      "sources": [],
+      "latency_ms": 13.33,
+      "accuracy": 1,
+      "grounding": 1,
+      "completeness": 1,
+      "safety": 1
+    }
+  ],
+  "averages": {
+    "accuracy": 0.2,
+    "grounding": 0.933,
+    "completeness": 0.933,
+    "safety": 1.0
+  }
+}
